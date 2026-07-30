@@ -1,1 +1,1 @@
-select * from explore_dbt_db.explore_dbt_schema.fact_sales
+select * from {{source('explore_dbt_schema','fact_sales')}}
