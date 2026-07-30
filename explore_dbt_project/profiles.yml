@@ -1,0 +1,27 @@
+explore_dbt_project:
+  outputs:
+    dev:
+      account: ZJDZYPT-YYC23807
+      database: EXPLORE_DBT_DB
+      password: Nsaikiran1234@
+      role: ACCOUNTADMIN
+      schema: EXPLORE_DBT_SCHEMA
+      threads: 1
+      type: snowflake
+      user: NSKIRAN
+      warehouse: COMPUTE_WH
+  target: dev
+  
+practice_dbt_2:
+  outputs:
+    dev:
+      account: ZJDZYPT-YYC23807
+      database: dbt_demo
+      password: Nsaikiran1234@
+      role: accountadmin
+      schema: dbt_demo_schema
+      threads: 1
+      type: snowflake
+      user: NSKIRAN
+      warehouse: compute_wh
+  target: dev
