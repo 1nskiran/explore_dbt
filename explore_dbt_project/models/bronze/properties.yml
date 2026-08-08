@@ -17,6 +17,10 @@ models:
         data_tests:
           - not_null
           - unique
+      - name: gross_amount
+        data_tests:
+            #no need to pass parameters to function as model name and column names are passed by this template implicitly
+          - generic_non_negative_test
 
   - name: bronze_store
     columns:
