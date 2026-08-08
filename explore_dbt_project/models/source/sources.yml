@@ -1,6 +1,6 @@
 sources:
   - name: explore_dbt_schema
-    database: explore_dbt_db  
+    database: '{{ target.database}}'  
     schema: explore_dbt_schema  
     tables:
       - name: fact_sales

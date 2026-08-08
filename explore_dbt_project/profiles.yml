@@ -10,6 +10,16 @@ explore_dbt_project:
       type: snowflake
       user: NSKIRAN
       warehouse: COMPUTE_WH
+    prod:
+      account: ZJDZYPT-YYC23807
+      database: explore_dbt_prod_db
+      password: Nsaikiran1234@
+      role: ACCOUNTADMIN
+      schema: explore_dbt_schema
+      threads: 1
+      type: snowflake
+      user: NSKIRAN
+      warehouse: COMPUTE_WH
   target: dev
   
 practice_dbt_2:
